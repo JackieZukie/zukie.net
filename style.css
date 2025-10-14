@@ -1,0 +1,70 @@
+table {
+   border-spacing: 12px 5px;
+}
+
+td {
+   background: rgb(1, 0, 31);
+   border: 1px solid rgb(60, 69, 157);
+   padding: 16px;
+   image-rendering: pixelated;
+
+   vertical-align: top;
+}
+
+body {
+   image-rendering: pixelated;
+   font-smooth: never;
+
+   font-family: "Comic Sans MS", sans-serif;
+   color: #fff;
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 10px;
+
+   min-height: 100vh;
+}
+
+#container {
+   max-width: 800px;
+   margin:0 auto;
+   position:relative;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+h1.dashed {
+   border-style: dashed;
+}
+
+html {
+   background-color: rgb(1, 0, 19);
+}
+
+a {
+   color: rgb(105, 145, 255);
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+   image-rendering: pixelated;
+}
+
+tr>*:first-child {
+   width: 20%;
+}
+
+tr>*:last-child {
+   width: 60%;
+}
+
+#links-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   gap: 10px;
+
+   margin-top: 10px;
+}
